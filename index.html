@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusPrint Hub | Student Printing Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- PyScript -->
+    <link rel="stylesheet"
+          href="https://pyscript.net/releases/2025.3.1/core.css">
+    <script type="module"
+            src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+    <script type="py" src="main.py"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="#home" class="logo">CampusPrint <span>Hub</span></a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#prices">Prices</a>
+            <a href="#order">Order Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">YOUR CAMPUS PRINTING PARTNER</p>
+                <h1>Your Schoolwork.<br><span>Printed with Ease.</span></h1>
+                <p>
+                    Affordable printing and document services made
+                    for students. Get your academic documents ready
+                    without the hassle.
+                </p>
+                <a class="primary-button" href="#order">Start an Order</a>
+                <a class="text-link" href="#services">Explore Services ↓</a>
+            </div>
+
+            <div class="hero-card">
+                <div class="paper-icon">CPH</div>
+                <h3>Student-Friendly Prices</h3>
+                <div class="price-highlight">
+                    <span>Black & White</span>
+                    <strong>₱2 <small>/ page</small></strong>
+                </div>
+                <div class="price-highlight">
+                    <span>Colored Printing</span>
+                    <strong>₱5 <small>/ page</small></strong>
+                </div>
+                <p class="small-note">Simple. Affordable. Convenient.</p>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div>
+                <strong>₱2</strong>
+                <span>B&W per page</span>
+            </div>
+            <div>
+                <strong>₱5</strong>
+                <span>Color per page</span>
+            </div>
+            <div>
+                <strong>Student First</strong>
+                <span>Our service approach</span>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT WE OFFER</p>
+                <h2>Services for Every Student</h2>
+                <p>From everyday assignments to important school projects.</p>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card">
+                    <div class="service-icon">B&W</div>
+                    <h3>Black & White</h3>
+                    <p>Print assignments, modules, and research papers.</p>
+                    <strong>₱2 / page</strong>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">CLR</div>
+                    <h3>Colored Printing</h3>
+                    <p>For presentations, graphics, and colorful projects.</p>
+                    <strong>₱5 / page</strong>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">COPY</div>
+                    <h3>Photocopying</h3>
+                    <p>Convenient copies of your school documents.</p>
+                    <strong>₱2 / page</strong>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">SCAN</div>
+                    <h3>Document Scanning</h3>
+                    <p>Turn paper documents into digital files.</p>
+                    <strong>₱5 / file</strong>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">EDIT</div>
+                    <h3>Document Formatting</h3>
+                    <p>Help with document layout and formatting.</p>
+                    <strong>₱10–₱30 / file</strong>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">BIND</div>
+                    <h3>Binding</h3>
+                    <p>Keep reports and projects organized.</p>
+                    <strong>₱25–₱50</strong>
+                </article>
+            </div>
+            <p class="small-note">
+                Rush printing is also available when possible for an
+                additional ₱5 per order.
+            </p>
+        </section>
+
+        <section class="section pricing-section" id="prices">
+            <div class="section-heading">
+                <p class="eyebrow">CLEAR AND SIMPLE</p>
+                <h2>Our Proposed Price List</h2>
+                <p>Student-friendly prices based on our business study.</p>
+            </div>
+
+            <div class="price-table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Proposed Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Black-and-white printing</td><td>₱2 / page</td></tr>
+                        <tr><td>Colored printing</td><td>₱5 / page</td></tr>
+                        <tr><td>Photocopying</td><td>₱2 / page</td></tr>
+                        <tr><td>Scanning</td><td>₱5 / file</td></tr>
+                        <tr><td>Document formatting</td><td>₱10–₱30 / file</td></tr>
+                        <tr><td>Binding</td><td>₱25–₱50</td></tr>
+                        <tr><td>Rush printing</td><td>Regular price + ₱5</td></tr>
+                        <tr><td>Online file submission</td><td>Free</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="small-note">
+                Prices are proposed academic-project prices, not a
+                claim that a physical shop is already operating.
+            </p>
+        </section>
+
+        <section class="section order-section" id="order">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S GET PRINTING</p>
+                <h2>Estimate Your Order</h2>
+                <p>Choose a service and calculate your estimated cost.</p>
+            </div>
+
+            <form id="order-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="customer-name">Your Name</label>
+                        <input id="customer-name" type="text"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customer-email">Email (optional)</label>
+                        <input id="customer-email" type="email"
+                               placeholder="you@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Choose a Service</label>
+                        <select id="service" required>
+                            <option value="bw">Black-and-white printing</option>
+                            <option value="color">Colored printing</option>
+                            <option value="copy">Photocopying</option>
+                            <option value="scan">Scanning</option>
+                            <option value="format">Document formatting</option>
+                            <option value="binding">Binding</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity" id="quantity-label">
+                            Number of pages
+                        </label>
+                        <input id="quantity" type="number"
+                               min="1" max="1000" value="1" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="document-file">
+                            Select a document (optional)
+                        </label>
+                        <input id="document-file" type="file"
+                               accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+                        <p class="small-note">
+                            Demo only: selecting a file does not upload it
+                            or send it to a printing shop.
+                        </p>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label class="check-label" for="rush">
+                            <input id="rush" type="checkbox">
+                            Request rush service (+₱5 when available)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="estimate-box">
+                    <span>Estimated Total</span>
+                    <strong id="total-price">₱2.00</strong>
+                    <p id="estimate-note">
+                        This is an estimate, not a confirmed order.
+                    </p>
+                </div>
+
+                <div class="button-row">
+                    <button type="button" class="secondary-button"
+                            id="calculate-btn">
+                        Calculate Price
+                    </button>
+                    <button type="submit" class="primary-button">
+                        Submit Demo Order
+                    </button>
+                </div>
+
+                <div id="order-message" class="message" aria-live="polite"></div>
+            </form>
+        </section>
+
+        <section class="closing">
+            <h2>Making Student Printing Easier.</h2>
+            <p>CampusPrint Hub — practical printing for campus life.</p>
+            <a class="primary-button" href="#order">Estimate Your Order</a>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">CampusPrint <span>Hub</span></a>
+        <p>Student Printing Service Project</p>
+        <p>Created for the Event-Driven Programming Final Project.</p>
+    </footer>
+</body>
+</html>
